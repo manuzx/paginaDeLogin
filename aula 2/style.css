@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif
+}
+.container {
+    display:flex;
+    width: 100vw;
+    height:100vh;
+}
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.direita {
+    background: #5134aa;
+    border-top-left-radius: 264px;
+    border-bottom-left-radius: 195px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.card{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .meio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+ }
+ .inputs{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .inputs input{ 
+    padding: 10px;
+    background: #cccc;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+ }
+ .inputs ::placeholder{
+    color:#333;
+ }
+ .card h1 {
+    font-size: 64px;
+ }
+ .fim button {
+    border-radius: 10px;
+    font-weight: bold;
+    background: #5134aa;
+    border: none;
+    padding: 10px;
+    color: white;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+ }
+ .fim button:hover {
+    background: #300e2e;
+ }
+ #btn-direita {
+    border: solid 2px white;
+ }
+.fim button {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+}
+
+.icones {
+    display: flex;
+    gap: 10px;
+}
+.icone {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border: solid 2px rgb(100, 100, 100);
+}
